@@ -1,0 +1,86 @@
+body{
+    background-color: #ffff;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.myForm{
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 26%;
+    height: 65vh;
+    gap: 30px;
+    border: solid;
+    position: relative;
+    border-radius: 1px;
+    border-color: #eee;
+}
+
+img{
+    width: 200ox;
+    height: 100px;
+}
+.myForm form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Log{
+    background-color: aqua;
+    border-radius: 4px;
+}
+
+main .myForm form input::placeholder{
+    padding: 10px;
+    opacity: .6;
+}
+
+main .myForm div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main .myForm form button{
+    background-color:  #1887f2;
+    color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.signUp{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 26%;
+    box-sizing: border-box;
+    color: #eee;
+}
+
+.signUp p{
+    color: black;
+}
+.signUp a{
+    color: #1877f2;
+}
+
+.getApp{
+    display: flex;
+    flex-direction: row;
+}
+.getApp a{
+    width: 50%;
+    height: 100%;
+}
